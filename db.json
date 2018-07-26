@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "内容1",
+      "content": "这是内容",
+      "author": 1
+    },
+    {
+      "id": 2,
+      "title": "内容2",
+      "content": "这是内容",
+      "author": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "用户1"
+    },
+    {
+      "id": 2,
+      "name": "用户2"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "postId": 1,
+      "author": 2,
+      "content": "评论1"
+    },
+    {
+      "id": 2,
+      "postId": 2,
+      "author": 1,
+      "content": "评论2"
+    }
+  ]
+}
